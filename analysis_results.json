@@ -1,0 +1,879 @@
+{
+  "stats_overview": {
+    "total_users": 500,
+    "total_posts": 151653,
+    "total_topics": 26969,
+    "total_solutions": 14979,
+    "total_likes_given": 97921,
+    "total_likes_received": 124172,
+    "avg_posts_per_user": 303.3,
+    "avg_days_visited": 523.4,
+    "avg_solutions_per_user": 30.0,
+    "median_posts": 242.5,
+    "median_likes_received": 182.0,
+    "avg_time_read_hours": 84.1
+  },
+  "segment_counts": {
+    "Power Users": 50,
+    "Active Contributors": 75,
+    "Regular Members": 125,
+    "Occasional Users": 125,
+    "Lurkers": 125
+  },
+  "engagement_by_segment": [
+    {
+      "segment": "Power Users",
+      "count": 50,
+      "avg_posts": 835.5,
+      "avg_likes": 583.9,
+      "avg_solutions": 98.3,
+      "avg_days": 764.5
+    },
+    {
+      "segment": "Active Contributors",
+      "count": 75,
+      "avg_posts": 450.1,
+      "avg_likes": 365.3,
+      "avg_solutions": 47.0,
+      "avg_days": 635.4
+    },
+    {
+      "segment": "Regular Members",
+      "count": 125,
+      "avg_posts": 296.9,
+      "avg_likes": 233.4,
+      "avg_solutions": 27.4,
+      "avg_days": 578.3
+    },
+    {
+      "segment": "Occasional Users",
+      "count": 125,
+      "avg_posts": 200.1,
+      "avg_likes": 171.9,
+      "avg_solutions": 16.1,
+      "avg_days": 450.3
+    },
+    {
+      "segment": "Lurkers",
+      "count": 125,
+      "avg_posts": 111.9,
+      "avg_likes": 135.4,
+      "avg_solutions": 8.9,
+      "avg_days": 377.9
+    }
+  ],
+  "group_analysis": [
+    {
+      "group": "ds-students",
+      "count": 428,
+      "avg_posts": 288.5,
+      "avg_solutions": 23.4,
+      "avg_days_visited": 535.5,
+      "total_likes_received": 99320
+    },
+    {
+      "group": "course_support",
+      "count": 36,
+      "avg_posts": 410.6,
+      "avg_solutions": 83.0,
+      "avg_days_visited": 497.0,
+      "total_likes_received": 12559
+    },
+    {
+      "group": "No Group",
+      "count": 21,
+      "avg_posts": 408.4,
+      "avg_solutions": 75.6,
+      "avg_days_visited": 344.4,
+      "total_likes_received": 7739
+    },
+    {
+      "group": "es-students",
+      "count": 6,
+      "avg_posts": 203.8,
+      "avg_solutions": 10.3,
+      "avg_days_visited": 301.7,
+      "total_likes_received": 1641
+    },
+    {
+      "group": "faculty",
+      "count": 4,
+      "avg_posts": 64.2,
+      "avg_solutions": 8.8,
+      "avg_days_visited": 106.8,
+      "total_likes_received": 721
+    },
+    {
+      "group": "Alumni_Students",
+      "count": 2,
+      "avg_posts": 686.5,
+      "avg_solutions": 65.0,
+      "avg_days_visited": 1306.0,
+      "total_likes_received": 1033
+    },
+    {
+      "group": "24t2_ms4001",
+      "count": 1,
+      "avg_posts": 1348.0,
+      "avg_solutions": 95.0,
+      "avg_days_visited": 717.0,
+      "total_likes_received": 676
+    },
+    {
+      "group": "iic_pod",
+      "count": 1,
+      "avg_posts": 245.0,
+      "avg_solutions": 36.0,
+      "avg_days_visited": 1033.0,
+      "total_likes_received": 287
+    },
+    {
+      "group": "pod-ops",
+      "count": 1,
+      "avg_posts": 354.0,
+      "avg_solutions": 52.0,
+      "avg_days_visited": 770.0,
+      "total_likes_received": 196
+    }
+  ],
+  "trust_analysis": [
+    {
+      "level": 1,
+      "label": "Basic",
+      "count": 450
+    },
+    {
+      "level": 2,
+      "label": "Member",
+      "count": 8
+    },
+    {
+      "level": 4,
+      "label": "Leader",
+      "count": 42
+    }
+  ],
+  "top_helpers": [
+    {
+      "rank": 1,
+      "name": "Ujjwal Sharma",
+      "username": "ujjisharma",
+      "helpfulness_score": 6.88,
+      "solutions": 1,
+      "likes_received": 449,
+      "posts": 66
+    },
+    {
+      "rank": 2,
+      "name": "Deva Nandan H",
+      "username": "devanandhan",
+      "helpfulness_score": 4.88,
+      "solutions": 121,
+      "likes_received": 175,
+      "posts": 160
+    },
+    {
+      "rank": 3,
+      "name": "Nitin Chandrachoodan",
+      "username": "nitinc",
+      "helpfulness_score": 4.74,
+      "solutions": 21,
+      "likes_received": 222,
+      "posts": 69
+    },
+    {
+      "rank": 4,
+      "name": "Andrew Thangaraj",
+      "username": "andrew",
+      "helpfulness_score": 4.56,
+      "solutions": 9,
+      "likes_received": 238,
+      "posts": 62
+    },
+    {
+      "rank": 5,
+      "name": "Sarthak Bisht",
+      "username": "Bisht",
+      "helpfulness_score": 3.57,
+      "solutions": 4,
+      "likes_received": 169,
+      "posts": 53
+    },
+    {
+      "rank": 6,
+      "name": "Parampreet Singh",
+      "username": "22f3000797",
+      "helpfulness_score": 3.37,
+      "solutions": 5,
+      "likes_received": 238,
+      "posts": 78
+    },
+    {
+      "rank": 7,
+      "name": "Gagneet Kaur",
+      "username": "gagneetkaur04",
+      "helpfulness_score": 3.24,
+      "solutions": 4,
+      "likes_received": 207,
+      "posts": 70
+    },
+    {
+      "rank": 8,
+      "name": "Ramya Ramesh",
+      "username": "RamyaR",
+      "helpfulness_score": 3.21,
+      "solutions": 28,
+      "likes_received": 149,
+      "posts": 90
+    },
+    {
+      "rank": 9,
+      "name": "Nandini Kushwah",
+      "username": "Nandini_Kushwah",
+      "helpfulness_score": 3.15,
+      "solutions": 3,
+      "likes_received": 240,
+      "posts": 81
+    },
+    {
+      "rank": 10,
+      "name": "Gangaprasad Tewary",
+      "username": "21f2000662",
+      "helpfulness_score": 3.14,
+      "solutions": 0,
+      "likes_received": 182,
+      "posts": 58
+    }
+  ],
+  "generous_users": [
+    {
+      "rank": 1,
+      "name": "Preetam Mukherjee",
+      "username": "Preetam",
+      "ratio": 11.46,
+      "given": 4021,
+      "received": 351
+    },
+    {
+      "rank": 2,
+      "name": "Sakthivel S",
+      "username": "23f2000237",
+      "ratio": 6.53,
+      "given": 907,
+      "received": 139
+    },
+    {
+      "rank": 3,
+      "name": "Anupam ",
+      "username": "iitm_student",
+      "ratio": 5.67,
+      "given": 1674,
+      "received": 295
+    },
+    {
+      "rank": 4,
+      "name": "Sashi Adhithya",
+      "username": "sashiadithya",
+      "ratio": 5.01,
+      "given": 1003,
+      "received": 200
+    },
+    {
+      "rank": 5,
+      "name": "Mehak",
+      "username": "Mehak",
+      "ratio": 4.81,
+      "given": 495,
+      "received": 103
+    }
+  ],
+  "outliers": {
+    "high_impact_low_volume": [
+      {
+        "name": "Thejesh GN",
+        "username": "thejeshgn",
+        "likes_per_post": 7.17,
+        "total_likes": 129,
+        "posts": 18
+      },
+      {
+        "name": "Ujjwal Sharma",
+        "username": "ujjisharma",
+        "likes_per_post": 6.8,
+        "total_likes": 449,
+        "posts": 66
+      },
+      {
+        "name": "Aayush Konar",
+        "username": "23f2000866",
+        "likes_per_post": 5.7,
+        "total_likes": 245,
+        "posts": 43
+      },
+      {
+        "name": "Navya R",
+        "username": "25f2007684",
+        "likes_per_post": 4.76,
+        "total_likes": 157,
+        "posts": 33
+      },
+      {
+        "name": "Shruti",
+        "username": "shru",
+        "likes_per_post": 4.55,
+        "total_likes": 150,
+        "posts": 33
+      }
+    ],
+    "silent_readers": [
+      {
+        "name": "RAJA BABU",
+        "username": "22f3002648",
+        "read_ratio": 407.3,
+        "posts_read": 43169,
+        "posts": 106
+      },
+      {
+        "name": "Anup Avinashrao Belambe",
+        "username": "22f1000445",
+        "read_ratio": 396.4,
+        "posts_read": 68183,
+        "posts": 172
+      },
+      {
+        "name": "Kabilan",
+        "username": "22f2000945",
+        "read_ratio": 321.1,
+        "posts_read": 56194,
+        "posts": 175
+      },
+      {
+        "name": "Daksh Vashisht",
+        "username": "Dakksh",
+        "read_ratio": 318.3,
+        "posts_read": 47744,
+        "posts": 150
+      },
+      {
+        "name": "Sashi Adhithya",
+        "username": "sashiadithya",
+        "read_ratio": 301.4,
+        "posts_read": 59974,
+        "posts": 199
+      }
+    ],
+    "marathon_users": [
+      {
+        "name": "\u092a\u0940\u092f\u0942\u0937 \u0905\u0917\u094d\u0930\u0935\u093e\u0932 / Piyush Agrawal",
+        "username": "cacklouncle",
+        "days_visited": 1671,
+        "posts": 1062,
+        "solutions": 106
+      },
+      {
+        "name": ".",
+        "username": "Sayan93",
+        "days_visited": 1505,
+        "posts": 333,
+        "solutions": 27
+      },
+      {
+        "name": "Vikas Jha",
+        "username": "VikasJha",
+        "days_visited": 1495,
+        "posts": 320,
+        "solutions": 44
+      },
+      {
+        "name": "Kaustav Goswami",
+        "username": "Kaustav",
+        "days_visited": 1400,
+        "posts": 259,
+        "solutions": 23
+      },
+      {
+        "name": "lehani raj mohanta",
+        "username": "lehani",
+        "days_visited": 1393,
+        "posts": 220,
+        "solutions": 22
+      }
+    ],
+    "solution_masters": [
+      {
+        "name": "Subendu Gorai",
+        "username": "Subendu",
+        "solutions": 237,
+        "posts": 834,
+        "efficiency": 28.4
+      },
+      {
+        "name": "Baskaran",
+        "username": "baskaran",
+        "solutions": 227,
+        "posts": 1269,
+        "efficiency": 17.9
+      },
+      {
+        "name": "Arun Prakash A",
+        "username": "arunprakash",
+        "solutions": 224,
+        "posts": 973,
+        "efficiency": 23.0
+      },
+      {
+        "name": "Asit Kumar Nayak ",
+        "username": "23f1000318",
+        "solutions": 222,
+        "posts": 1562,
+        "efficiency": 14.2
+      },
+      {
+        "name": "Himanshu  Sharma",
+        "username": "Himanshu207",
+        "solutions": 202,
+        "posts": 978,
+        "efficiency": 20.7
+      }
+    ],
+    "gamification_champions": [
+      {
+        "name": "Anupam ",
+        "username": "iitm_student",
+        "gamification_score": 15067,
+        "posts": 738,
+        "days_visited": 398
+      },
+      {
+        "name": "green tea",
+        "username": "onu",
+        "gamification_score": 12542,
+        "posts": 370,
+        "days_visited": 144
+      },
+      {
+        "name": "Narayanan R",
+        "username": "Narayanan.POD",
+        "gamification_score": 10294,
+        "posts": 354,
+        "days_visited": 770
+      },
+      {
+        "name": "BHAVEN",
+        "username": "24f3000936",
+        "gamification_score": 9126,
+        "posts": 1078,
+        "days_visited": 382
+      },
+      {
+        "name": "Asit Kumar Nayak ",
+        "username": "23f1000318",
+        "gamification_score": 9022,
+        "posts": 1562,
+        "days_visited": 1072
+      }
+    ]
+  },
+  "post_distribution": [
+    {
+      "range": "0-9",
+      "count": 2
+    },
+    {
+      "range": "10-49",
+      "count": 10
+    },
+    {
+      "range": "50-99",
+      "count": 40
+    },
+    {
+      "range": "100-249",
+      "count": 208
+    },
+    {
+      "range": "250-499",
+      "count": 171
+    },
+    {
+      "range": "500-999",
+      "count": 59
+    },
+    {
+      "range": "1000-+",
+      "count": 10
+    }
+  ],
+  "days_distribution": [
+    {
+      "range": "0-29",
+      "count": 0
+    },
+    {
+      "range": "30-99",
+      "count": 12
+    },
+    {
+      "range": "100-249",
+      "count": 79
+    },
+    {
+      "range": "250-499",
+      "count": 181
+    },
+    {
+      "range": "500-749",
+      "count": 126
+    },
+    {
+      "range": "750-999",
+      "count": 68
+    },
+    {
+      "range": "1000-+",
+      "count": 34
+    }
+  ],
+  "likes_distribution": [
+    {
+      "range": "0-49",
+      "count": 0
+    },
+    {
+      "range": "50-99",
+      "count": 0
+    },
+    {
+      "range": "100-199",
+      "count": 274
+    },
+    {
+      "range": "200-399",
+      "count": 150
+    },
+    {
+      "range": "400-599",
+      "count": 54
+    },
+    {
+      "range": "600-799",
+      "count": 11
+    },
+    {
+      "range": "800-+",
+      "count": 11
+    }
+  ],
+  "solutions_distribution": [
+    {
+      "range": "0-0",
+      "count": 35
+    },
+    {
+      "range": "1-4",
+      "count": 83
+    },
+    {
+      "range": "5-9",
+      "count": 58
+    },
+    {
+      "range": "10-24",
+      "count": 138
+    },
+    {
+      "range": "25-49",
+      "count": 92
+    },
+    {
+      "range": "50-99",
+      "count": 67
+    },
+    {
+      "range": "100-+",
+      "count": 27
+    }
+  ],
+  "spotlight_users": [
+    {
+      "name": "Asit Kumar Nayak ",
+      "username": "23f1000318",
+      "title": "Course TA",
+      "group": "ds-students",
+      "trust_level": 2,
+      "posts": 1562,
+      "solutions": 222,
+      "likes_received": 802,
+      "days_visited": 1072,
+      "engagement_score": 9692,
+      "segment": "Power Users",
+      "gamification_score": 9022
+    },
+    {
+      "name": "Manan Tilwani",
+      "username": "21f200858_MananT",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 1,
+      "posts": 1163,
+      "solutions": 24,
+      "likes_received": 580,
+      "days_visited": 1160,
+      "engagement_score": 8489,
+      "segment": "Power Users",
+      "gamification_score": 5904
+    },
+    {
+      "name": "Baskaran",
+      "username": "baskaran",
+      "title": "Course_Team",
+      "group": "course_support",
+      "trust_level": 4,
+      "posts": 1269,
+      "solutions": 227,
+      "likes_received": 793,
+      "days_visited": 681,
+      "engagement_score": 8328,
+      "segment": "Power Users",
+      "gamification_score": 6965
+    },
+    {
+      "name": "Swati Jain",
+      "username": "21f3000759",
+      "title": "Course TA",
+      "group": "ds-students",
+      "trust_level": 2,
+      "posts": 1256,
+      "solutions": 159,
+      "likes_received": 794,
+      "days_visited": 887,
+      "engagement_score": 7989,
+      "segment": "Power Users",
+      "gamification_score": 5999
+    },
+    {
+      "name": "Preetam Mukherjee",
+      "username": "Preetam",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 1,
+      "posts": 704,
+      "solutions": 24,
+      "likes_received": 351,
+      "days_visited": 774,
+      "engagement_score": 7595,
+      "segment": "Power Users",
+      "gamification_score": 5348
+    },
+    {
+      "name": "\u092a\u0940\u092f\u0942\u0937 \u0905\u0917\u094d\u0930\u0935\u093e\u0932 / Piyush Agrawal",
+      "username": "cacklouncle",
+      "title": "Alumnus",
+      "group": "Alumni_Students",
+      "trust_level": 2,
+      "posts": 1062,
+      "solutions": 106,
+      "likes_received": 763,
+      "days_visited": 1671,
+      "engagement_score": 7535,
+      "segment": "Power Users",
+      "gamification_score": 3669
+    },
+    {
+      "name": "Shubham Gattani",
+      "username": "ShubhamG",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 1,
+      "posts": 808,
+      "solutions": 36,
+      "likes_received": 498,
+      "days_visited": 758,
+      "engagement_score": 7177,
+      "segment": "Power Users",
+      "gamification_score": 5054
+    },
+    {
+      "name": "Arun Prakash A",
+      "username": "arunprakash",
+      "title": "",
+      "group": "No Group",
+      "trust_level": 1,
+      "posts": 973,
+      "solutions": 224,
+      "likes_received": 854,
+      "days_visited": 1121,
+      "engagement_score": 7100,
+      "segment": "Power Users",
+      "gamification_score": 5935
+    },
+    {
+      "name": "dote",
+      "username": "valid22",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 2,
+      "posts": 1218,
+      "solutions": 104,
+      "likes_received": 839,
+      "days_visited": 460,
+      "engagement_score": 6981,
+      "segment": "Power Users",
+      "gamification_score": 83
+    },
+    {
+      "name": "Subendu Gorai",
+      "username": "Subendu",
+      "title": "Leader",
+      "group": "course_support",
+      "trust_level": 4,
+      "posts": 834,
+      "solutions": 237,
+      "likes_received": 825,
+      "days_visited": 1133,
+      "engagement_score": 6957,
+      "segment": "Power Users",
+      "gamification_score": 4794
+    },
+    {
+      "name": "Devam Shah",
+      "username": "devam_07",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 2,
+      "posts": 902,
+      "solutions": 177,
+      "likes_received": 746,
+      "days_visited": 489,
+      "engagement_score": 6955,
+      "segment": "Power Users",
+      "gamification_score": 6815
+    },
+    {
+      "name": "Rajeev ",
+      "username": "Rajeev_kumar_bhagat",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 1,
+      "posts": 1133,
+      "solutions": 46,
+      "likes_received": 381,
+      "days_visited": 1035,
+      "engagement_score": 6929,
+      "segment": "Power Users",
+      "gamification_score": 5595
+    },
+    {
+      "name": "Arup Kumar Chattopadhyay",
+      "username": "arup.kr",
+      "title": "Course_Team",
+      "group": "course_support",
+      "trust_level": 4,
+      "posts": 705,
+      "solutions": 154,
+      "likes_received": 881,
+      "days_visited": 955,
+      "engagement_score": 6881,
+      "segment": "Power Users",
+      "gamification_score": 5453
+    },
+    {
+      "name": "Utkarsh Sahu",
+      "username": "SahuUtkarsh03",
+      "title": "",
+      "group": "24t2_ms4001",
+      "trust_level": 2,
+      "posts": 1348,
+      "solutions": 95,
+      "likes_received": 676,
+      "days_visited": 717,
+      "engagement_score": 6858,
+      "segment": "Power Users",
+      "gamification_score": 6196
+    },
+    {
+      "name": "Himanshu  Sharma",
+      "username": "Himanshu207",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 1,
+      "posts": 978,
+      "solutions": 202,
+      "likes_received": 665,
+      "days_visited": 823,
+      "engagement_score": 6504,
+      "segment": "Power Users",
+      "gamification_score": 5936
+    },
+    {
+      "name": "Vishal Raj",
+      "username": "Vishal",
+      "title": "Course_Team",
+      "group": "course_support",
+      "trust_level": 4,
+      "posts": 870,
+      "solutions": 148,
+      "likes_received": 850,
+      "days_visited": 1023,
+      "engagement_score": 6487,
+      "segment": "Power Users",
+      "gamification_score": 3113
+    },
+    {
+      "name": "Dhannya SM",
+      "username": "dhannya",
+      "title": "",
+      "group": "No Group",
+      "trust_level": 1,
+      "posts": 941,
+      "solutions": 138,
+      "likes_received": 863,
+      "days_visited": 544,
+      "engagement_score": 6352,
+      "segment": "Power Users",
+      "gamification_score": 1185
+    },
+    {
+      "name": "Pushpak Ruhil",
+      "username": "21f2001180",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 1,
+      "posts": 692,
+      "solutions": 101,
+      "likes_received": 876,
+      "days_visited": 817,
+      "engagement_score": 5935,
+      "segment": "Power Users",
+      "gamification_score": 2568
+    },
+    {
+      "name": "Prashant Sharma",
+      "username": "Prashant2",
+      "title": "Course_Team",
+      "group": "course_support",
+      "trust_level": 4,
+      "posts": 836,
+      "solutions": 138,
+      "likes_received": 812,
+      "days_visited": 1192,
+      "engagement_score": 5745,
+      "segment": "Power Users",
+      "gamification_score": 4482
+    },
+    {
+      "name": "Palak Pandey",
+      "username": "24F1002229",
+      "title": "",
+      "group": "ds-students",
+      "trust_level": 1,
+      "posts": 1007,
+      "solutions": 185,
+      "likes_received": 387,
+      "days_visited": 398,
+      "engagement_score": 5713,
+      "segment": "Power Users",
+      "gamification_score": 5213
+    }
+  ]
+}
