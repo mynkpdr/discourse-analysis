@@ -16,6 +16,16 @@
     --radius: 14px;
     --shadow: 0 4px 24px rgba(0,0,0,0.07);
   }
+  .dark {
+    --primary: #e0e0e0;
+    --accent: #5dade2;
+    --accent2: #58d68d;
+    --bg: #121212;
+    --card: #1e1e1e;
+    --text: #ffffff;
+    --muted: #b0b0b0;
+    --shadow: 0 4px 24px rgba(255,255,255,0.1);
+  }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -45,6 +55,21 @@
     font-size: 0.95em;
     opacity: 0.6;
     margin-top: 16px;
+  }
+  .dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  .dark .dark-mode-toggle {
+    background: rgba(0,0,0,0.3);
   }
   .container {
     max-width: 1100px;
@@ -126,7 +151,7 @@
   .insight-card:hover { transform: translateY(-4px); }
   .insight-icon { font-size: 2em; margin-bottom: 8px; }
   .insight-card h3 { color: var(--primary); margin-bottom: 10px; font-size: 1.15em; }
-  .insight-card p { color: #555; font-size: 0.98em; }
+  .insight-card p { color: var(--muted); font-size: 0.98em; }
   /* Leaderboards */
   .lb-grid {
     display: grid;
@@ -144,15 +169,15 @@
     color: var(--primary);
     margin-bottom: 12px;
     padding-bottom: 8px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 2px solid var(--muted);
   }
   .lb-table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
   .lb-table th { text-align: left; color: var(--muted); font-weight: 600; padding: 6px 4px; font-size: 0.85em; text-transform: uppercase; }
-  .lb-table td { padding: 7px 4px; border-top: 1px solid #f0f0f0; }
+  .lb-table td { padding: 7px 4px; border-top: 1px solid var(--muted); }
   .badge {
     display: inline-block;
-    background: #e8f4fd;
-    color: #2980b9;
+    background: var(--accent);
+    color: var(--card);
     padding: 2px 8px;
     border-radius: 6px;
     font-size: 0.78em;
@@ -186,13 +211,13 @@
     color: var(--muted);
     padding: 40px 20px;
     font-size: 0.9em;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid var(--muted);
     margin-top: 60px;
   }
   /* Narrative */
   .narrative {
     font-size: 1.08em;
-    color: #444;
+    color: var(--text);
     max-width: 780px;
     margin-bottom: 16px;
   }
@@ -209,6 +234,7 @@
 
 <!-- ═══ HERO ═══ -->
 <div class="hero">
+  <button class="dark-mode-toggle" id="darkModeToggle">🌙 Dark Mode</button>
   <h1>The IITM Discourse Community</h1>
   <p>An exploration of 500 of the most active members on the IIT Madras Online Degree Discourse forum — who they are, how they engage, and what makes this community tick.</p>
   <div class="subtitle">Data Story · February 2026</div>
@@ -675,6 +701,14 @@
   <p>IITM Discourse Community Data Story · Generated from top-500 user directory data · February 2026</p>
   <p>Built with Python, pandas, matplotlib & seaborn</p>
 </div>
+
+<script>
+  document.getElementById('darkModeToggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark');
+    const isDark = document.body.classList.contains('dark');
+    this.textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+  });
+</script>
 
 </body>
 </html>
